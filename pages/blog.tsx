@@ -1,7 +1,8 @@
 export default function Blog() {
   return (
     <div>
-      <p>Blog Page</p>
+      {/* tidak akan pernah ter apply krn tidak diimport*/}
+      <p className="title-homepage">Blog Page</p>
     </div>
   );
 }
